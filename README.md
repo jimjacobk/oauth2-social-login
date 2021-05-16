@@ -10,6 +10,7 @@ The default redirect URI template is {baseUrl}/login/oauth2/code/{registrationId
 ```
 
 
+
 ## OAuth 2.0 Roles
 
 ### Client -  3rd Party application trying to get access to user account

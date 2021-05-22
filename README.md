@@ -77,3 +77,8 @@ OR
 4. The content provider redirects the client back to the server, notifying it of success or failure. This request includes an authorization code on success.
 5. The server makes an out-of-band request to the content provider and exchanges the authorization code for an access token.
 6. The server can now make requests to the content provider on behalf of the user by passing the access token.
+
+
+## Further Reading
+
+1. https://spin.atomicobject.com/2016/05/30/openid-oauth-saml/

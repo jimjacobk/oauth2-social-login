@@ -71,13 +71,14 @@ OR
 
 ## To Summarize
 
-1. The client submits an authorization request to the server, which validates that the client is a legitimate client of its service.
+1. The client application submits an authorization request to the Auth Provider, which validates that the client is a legitimate client of its service.
 2. The server redirects the client to the content provider to request access to its resources.
 3. The content provider validates the user's identity, and often requests their permission to access the resources.
 4. The content provider redirects the client back to the server, notifying it of success or failure. This request includes an authorization code on success.
 5. The server makes an out-of-band request to the content provider and exchanges the authorization code for an access token.
 6. The server can now make requests to the content provider on behalf of the user by passing the access token.
 
+![Alt text](./images/Oauth2.png?raw=true "Oauth Flow")
 
 ![Alt text](./images/Oauth.jpg?raw=true "Oauth Flow")
 

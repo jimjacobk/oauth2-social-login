@@ -79,6 +79,8 @@ OR
 6. The server can now make requests to the content provider on behalf of the user by passing the access token.
 
 
+![Alt text](./images/Oauth.jpg?raw=true "Oauth Flow")
+
 ## Further Reading
 
 1. https://spin.atomicobject.com/2016/05/30/openid-oauth-saml/
